@@ -1,0 +1,36 @@
+#titulo1{
+ color: black;
+font-family: cursive;
+}
+#objetivo1{
+ color: aqua;
+font-family: cursive;
+}
+#titulo2{
+color: aqua;
+font-family: cursive;
+}
+#regla1{
+    color: blue;
+    background-color: aquamarine;
+display: inline-block;
+width: 30%; 
+height: 20%;
+}
+#regla2{
+    color: blue;
+    background-color: aquamarine;
+display: inline-block;
+width: 30%;
+height: 20%;
+}
+#regla3{
+   color: blue;
+   background-color: aquamarine;
+display: inline-block;
+width: 30%; 
+height: 20%;
+}
+.body{
+    background-color: rgb(33, 136, 122);
+}
