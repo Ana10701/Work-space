@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio bootstrap</title>
+</head>
+
+<body style="background-color: darkgray;">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Electricos unidos</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portafolio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Servicios
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Instalacion Electrica</a></li>
+                                    <li><a class="dropdown-item" href="#">Reparacion de daños</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Servicios a la medida</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" />
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagen1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="accordion" id="accordionExample" data-bs-theme="dark">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Su mejor servicio
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            En Electricos unidos, combinamos experiencia, seguridad y compromiso para ofrecerle
+                            soluciones electricas confiables, aficaces y a la medida de sus necesidades
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Llegamos a donde sea
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                No importa si estas en la ciudad, a las afueras o en una zona rural, llegamos asta donde
+                                estes para brindarteun servicio electrico rapido,seguro y profesional. Con nosotros la
+                                distancia no es un limite, la calidad viaja contigo
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Rapido y eficaz
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                En Electricos unidos, sabemos que tu tiempo vale oro, por eso respondemos con agilidad y
+                                soluciones efectivas, resolviendo tus problemas electricos en el menor tiempo posible y
+                                con la maxima calidad
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="trabajador1.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Carlos Ramírez, Técnico Electricista
+                                Con más de 8 años de experiencia, Carlos es experto en instalaciones, reparaciones y
+                                mantenimiento eléctrico. Garantiza un trabajo seguro, limpio y eficiente en cada
+                                visita..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="trabajador2.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Andrés Torres, Asesor de Servicio al Cliente
+                                Amable y atento, Andrés es quien recibe tus llamadas y mensajes. Agenda visitas,
+                                resuelve dudas y te guía paso a paso para que tengas la mejor experiencia con nuestro
+                                servicio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="trabajador3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"> Laura Gómez, Supervisora de Proyectos
+                                Organizada y detallista, Laura coordina cada servicio desde el inicio hasta la entrega
+                                final. Se asegura de que todo se haga a tiempo, con calidad y según las normas técnicas.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="card">
+                    <div class="card">
+                        <div class="card-header">
+                        </div>
+                        <div class="card-body">
+                          <figure>
+                            <blockquote class="blockquote">
+                              <p>Eléctricos Unidos – Soluciones Eléctricas de Confianza</p>
+                                <p>📍 Dirección: Calle 45 #18-22, Barrio El Progreso, Medellín, Colombia</p>
+                                <p>📞 Teléfono: (604) 589-3347 | 📱 WhatsApp: +57 312 456 7890</p>
+                                <p>📧 Correo: contacto@electricosunidos.com</p>
+                                <p>🕒 Horario: Lunes a Sábado – 7:00 a.m. a 6:00 p.m.</p>
+                                
+                                <p>© 2025 Eléctricos Unidos. Todos los derechos reservados.
+                                Atención rápida, servicio garantizado y cobertura donde nos necesites.</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+</body>
+
+</html>
